@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="391.0" prefWidth="577.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="format.pemesanan.menu1.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="208.0" layoutY="8.0" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="158.0" text="Format Pemesanan Menu" />
+        <Label fx:id="label" layoutX="27.0" layoutY="122.0" minHeight="16" minWidth="69" />
+      <Button fx:id="Button1" layoutX="27.0" layoutY="49.0" mnemonicParsing="false" onAction="#Nama" prefHeight="25.0" prefWidth="135.0" text="NAMA PEMESAN : " />
+      <Button fx:id="Button2" layoutX="27.0" layoutY="86.0" mnemonicParsing="false" onAction="#Meja" prefHeight="25.0" prefWidth="135.0" text="NO. MEJA:" />
+      <Button fx:id="Button3" layoutX="27.0" layoutY="124.0" mnemonicParsing="false" onAction="#Menu" prefHeight="31.0" prefWidth="135.0" text="Pilih Menu:" />
+      <RadioButton layoutX="27.0" layoutY="166.0" mnemonicParsing="false" onAction="#Radio1" text="Nasi Goreng" />
+      <RadioButton layoutX="27.0" layoutY="204.0" mnemonicParsing="false" onAction="#Radio2" prefHeight="17.0" prefWidth="87.0" text="Mie Goreng" />
+      <RadioButton layoutX="165.0" layoutY="166.0" mnemonicParsing="false" onAction="#Radio3" prefHeight="17.0" prefWidth="79.0" text="Cap Jay" />
+      <RadioButton layoutX="165.0" layoutY="204.0" mnemonicParsing="false" onAction="#Radio4" prefHeight="17.0" prefWidth="79.0" text="Pizza" />
+      <RadioButton layoutX="273.0" layoutY="166.0" mnemonicParsing="false" onAction="#Radio5" prefHeight="17.0" prefWidth="69.0" text="Es Teh" />
+      <RadioButton layoutX="273.0" layoutY="204.0" mnemonicParsing="false" onAction="#Radio6" prefHeight="17.0" prefWidth="79.0" text="Es Jeruk" />
+      <Button fx:id="Button4" layoutX="27.0" layoutY="239.0" mnemonicParsing="false" onAction="#Jumlah" prefHeight="25.0" prefWidth="135.0" text="JUMLAH:" />
+      <TextField layoutX="182.0" layoutY="49.0" />
+      <TextField layoutX="182.0" layoutY="86.0" />
+      <TextField layoutX="182.0" layoutY="239.0" />
+      <Button fx:id="Button5" layoutX="27.0" layoutY="276.0" mnemonicParsing="false" onAction="#Bayar" prefHeight="25.0" prefWidth="135.0" text="BAYAR:" />
+      <Button fx:id="Button6" layoutX="27.0" layoutY="316.0" mnemonicParsing="false" onAction="#Kembalian" prefHeight="25.0" prefWidth="135.0" text="KEMBALIAN:" />
+      <TextField layoutX="182.0" layoutY="276.0" />
+      <TextField layoutX="182.0" layoutY="316.0" />
+      <Button fx:id="Button7" layoutX="378.0" layoutY="49.0" mnemonicParsing="false" onAction="#Nasi" prefHeight="31.0" prefWidth="181.0" text="Nasi Goreng: 5000" />
+      <Button fx:id="Button8" layoutX="378.0" layoutY="99.0" mnemonicParsing="false" onAction="#Mie" prefHeight="31.0" prefWidth="181.0" text="Mie Goreng: 6000" />
+      <Button fx:id="Button9" layoutX="378.0" layoutY="154.0" mnemonicParsing="false" onAction="#CapJY" prefHeight="31.0" prefWidth="181.0" text="Cap Jay: 7000" />
+      <Button fx:id="Button10" layoutX="378.0" layoutY="200.0" mnemonicParsing="false" onAction="#Pizza" prefHeight="31.0" prefWidth="181.0" text="Pizza: 15000" />
+      <Button fx:id="Button11" layoutX="378.0" layoutY="252.0" mnemonicParsing="false" onAction="#Teh" prefHeight="31.0" prefWidth="181.0" text="Es Teh: 2500" />
+      <Button fx:id="Button12" layoutX="378.0" layoutY="304.0" mnemonicParsing="false" onAction="#Jeruk" prefHeight="31.0" prefWidth="181.0" text="Es Jeruk: 2500" />
+    </children>
+</AnchorPane>
